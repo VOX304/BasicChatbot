@@ -55,8 +55,7 @@ Here are some ways to use the Pet Store AI Assistant:
 
 ## 📦 Project Structure
 bash
-Copy
-Edit
+```
 petstore-assistant/
 ├── app.py                # Main entry point
 ├── .env                  # Environment variables
@@ -64,6 +63,7 @@ petstore-assistant/
 └── src/
     └── prompt.py         # Contains system instructions for the chatbot
     └── llm.py            # Call Gemini  
+```
 ## 🧠 Powered By
 Chainlit
 
