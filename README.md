@@ -16,7 +16,7 @@ Welcome to the Pet Store AI Assistant — an intelligent chatbot built with Goog
 1. Clone the repository
 bash
 ```
-git clone https://github.com/yourusername/petstore-assistant.git
+git clone https://github.com/VOX304/BasicChatbot.git
 cd petstore-assistant
 ```
 
@@ -26,11 +26,14 @@ Create a .env file in the root directory with your Gemini API Key:
 
 3. Install dependencies
 Make sure you have Python 3.8+ installed.
-```pip install -r requirements.txt```
+```pip install -r requirements.txt ```
 
 4. Run the chatbot
 
-```chainlit run app.py```
+``` 
+chainlit init
+chainlit run app.py
+```
 This will launch a local chat interface where you can interact with the assistant in your browser.
 
 ## 💡 Use Cases
@@ -60,6 +63,7 @@ petstore-assistant/
 ├── requirements.txt      # Python dependencies
 └── src/
     └── prompt.py         # Contains system instructions for the chatbot
+    └── llm.py            # Call Gemini  
 ## 🧠 Powered By
 Chainlit
 
