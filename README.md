@@ -17,7 +17,7 @@ Welcome to the Pet Store AI Assistant — an intelligent chatbot built with Goog
 bash
 ```
 git clone https://github.com/VOX304/BasicChatbot.git
-cd petstore-assistant
+cd BasicChatbot
 ```
 
 2. Set up your environment
